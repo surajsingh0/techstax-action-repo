@@ -18,5 +18,3 @@ This repository is solely used to generate GitHub webhook events (Push, Pull Req
 Now, whenever you push commits or create/merge a PR, GitHub will POST JSON to our Flask receiver.
 
 > **Note:** We assume your Flask app (in `webhook-repo`) is already deployed and publicly reachable at `https://<YOUR_FLASK_APP_DOMAIN>`. If you’re developing locally, use a tunneling tool (e.g. `ngrok`) and set the Payload URL accordingly (e.g. `https://<RANDOM>.ngrok.io/github-webhook`).
-
-test 1
